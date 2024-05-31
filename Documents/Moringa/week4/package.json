@@ -1,0 +1,27 @@
+{
+  "name": "week4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Initbyte/Miniapps.git"
+  },
+  "keywords": [
+    "jest",
+    "Safaricom",
+    "test"
+  ],
+  "author": "Stella Kinja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Initbyte/Miniapps/issues"
+  },
+  "homepage": "https://github.com/Initbyte/Miniapps#readme",
+  "description": "",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
