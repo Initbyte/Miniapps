@@ -1,0 +1,46 @@
+{
+  "name": "week4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sonar":  "node sonar-project.js",
+    "test": "jest",
+    "test:reports": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment":  "node",
+    "coveragePathIgnorePatterns": [
+        "/node_modules/"
+    ],
+    "testResultsProcessor":  "jest-sonar-reporter"
+  },
+  "jestSonar": {
+    "reportPath":  "coverage",
+    "reportFile":  "test-reporter.xml",
+    "indent":  4
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Initbyte/Miniapps.git"
+  },
+  "keywords": [
+    "jest",
+    "Safaricom",
+    "test"
+  ],
+  "author": "Stella Kinja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Initbyte/Miniapps/issues"
+  },
+  "homepage": "https://github.com/Initbyte/Miniapps#readme",
+  "description": "",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "jest-sonar-reporter": "^2.0.0",
+    "sonarqube-scanner": "^3.5.0",
+    "supertest": "^7.0.0"
+  }
+}
